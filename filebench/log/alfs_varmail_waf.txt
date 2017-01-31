@@ -1,0 +1,8 @@
+     *** after_mounting_dataUnitWrite = 18004502909024, after_mounting_controllerDataUnitsWritten = 18004502904832
+     *** after_mounting_WAF = 0.9999999998
+     *** first_dataUnitWrite = 18038862643208, first_controllerDataUnitsWritten = 18038862643200
+     *** first_WAF = 1.0000001218
+     *** second_dataUnitWrite = 18073222381568, second_controllerDataUnitsWritten = 18038862643200
+     *** second_WAF = 0.0000000000
+     *** filebench_dataUnitWrite = 3757615347684664, filebench_controllerDataUnitsWritten = 3752564466122752
+     *** filebench_WAF = 0.9986585198

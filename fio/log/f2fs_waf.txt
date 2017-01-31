@@ -1,0 +1,14 @@
+     *** after_mounting_dataUnitWrite = 1055977839509608, after_mounting_controllerDataUnitsWritten = 1055977839263744
+     *** after_mounting_WAF = 1.0000
+     *** first_dataUnitWrite = 7235719412022509568, first_controllerDataUnitsWritten = 7255505570440937472
+     *** first_WAF = 1.0027
+     *** second_dataUnitWrite = 14444457770834880512, second_controllerDataUnitsWritten = 14473983059591954432
+     *** second_WAF = 1.0014
+     *** third_dataUnitWrite = 72090354674078031872, third_controllerDataUnitsWritten = 173056401613097271296
+     *** third_WAF = 2.7510
+     *** fourth_dataUnitWrite = 79296085593669074944, fourth_controllerDataUnitsWritten = 187650755735364567040
+     *** fourth_WAF = 2.0254
+     *** fifth_dataUnitWrite = 79296227361922482176, fifth_controllerDataUnitsWritten = 187650897503645073408
+     *** fifth_WAF = 1.0000
+     *** sixth_dataUnitWrite = 79296227361922482176, sixth_controllerDataUnitsWritten = 187650897503645073408
+     *** sixth_WAF = Error(division by zero)

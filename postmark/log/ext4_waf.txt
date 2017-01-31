@@ -1,0 +1,6 @@
+     *** after_mounting_dataUnitWrite = 1252034506683064, after_mounting_controllerDataUnitsWritten = 1252034506391552
+     *** after_mounting_WAF = 0.9999999998
+     *** after_dd_dataUnitWrite = 7501440620523926528, after_dd_controllerDataUnitsWritten = 7521268182393290752
+     *** after_dd_WAF = 1.0026436084
+     *** postmark_dataUnitWrite = 14219201442092759040, postmark_controllerDataUnitsWritten = 14248697181509779456
+     *** postmark_WAF = 1.0014391965

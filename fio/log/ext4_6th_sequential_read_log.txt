@@ -1,0 +1,28 @@
+fio_test: (g=0): rw=read, bs=128KiB-128KiB,128KiB-128KiB,128KiB-128KiB, ioengine=libaio, iodepth=128
+fio-2.16-35-g8c4e
+Starting 1 thread
+
+fio_test: (groupid=0, jobs=1): err= 0: pid=14819: Thu Jan 19 11:14:23 2017
+   read: IOPS=12.3k, BW=1527MiB/s (1602MB/s)(800GiB/536347msec), iops=12595, runt=
+    slat (usec): min=3, max=6357, avg= 4.09, stdev= 3.69
+    clat (msec): min=1, max=34, avg=10.47, stdev= 2.29
+     lat (msec): min=1, max=34, avg=10.48, stdev= 2.29
+    clat percentiles (usec):
+     |  1.00th=[ 2608],  5.00th=[ 6368], 10.00th=[10048], 20.00th=[10176],
+     | 30.00th=[10304], 40.00th=[10432], 50.00th=[10432], 60.00th=[10560],
+     | 70.00th=[10688], 80.00th=[10816], 90.00th=[11072], 95.00th=[14016],
+     | 99.00th=[19072], 99.50th=[20608], 99.90th=[24192], 99.95th=[25728],
+     | 99.99th=[27776]
+    lat (msec) : 2=0.31%, 4=2.23%, 10=7.97%, 20=88.82%, 50=0.67%
+  cpu          : usr=2.38%, sys=5.88%, ctx=6242575, majf=0, minf=10
+  IO depths    : 1=0.1%, 2=0.1%, 4=0.1%, 8=0.1%, 16=0.1%, 32=0.1%, >=64=100.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.1%
+     issued rwt: total=6553600,0,0, short=0,0,0, dropped=0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=128
+
+Run status group 0 (all jobs):
+   READ: bw=1527MiB/s (1602MB/s), 1527MiB/s-1527MiB/s (1602MB/s-1602MB/s), io=800GiB (859GB), run=536347-536347msec
+
+Disk stats (read/write):
+  nvme0n1: ios=6552663/0, merge=0/0, ticks=68580244/0, in_queue=68588609, util=99.99%

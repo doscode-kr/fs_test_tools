@@ -1,0 +1,6 @@
+     *** 1st sequential write iops = 167936
+     *** 2nd sequential write iops = 171008
+     *** 3rd random write iops = 49199
+     *** 4th sequential write iops = 2085
+     *** 5th random read iops = 161379
+     *** 6th sequential read iops = 12595

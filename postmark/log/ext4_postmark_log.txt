@@ -1,0 +1,33 @@
+PostMark v1.5 : 3/27/01
+Reading configuration from file './postmark_files/postmark.conf'
+Current configuration is:
+The base number of files is 15000
+Transactions: 6000000
+Files range between 5.00 kilobytes and 512.00 kilobytes in size
+Working directory: 
+	/home/mizno/mounting_point/ (weight=1)
+Block sizes are: read=512 bytes, write=4.00 kilobytes
+Biases are: read/append=5, create/delete=5
+Not using Unix buffered file I/O
+Random number generator seed is 42
+Report format is verbose.
+Creating files...Done
+Performing transactions..........Done
+Deleting files...Done
+Time:
+	2177 seconds total
+	2172 seconds of transactions (2762 per second)
+
+Files:
+	3016293 created (1385 per second)
+		Creation alone: 15000 files (3750 per second)
+		Mixed with transactions: 3001293 files (1381 per second)
+	3000753 read (1381 per second)
+	2994638 appended (1378 per second)
+	3016293 deleted (1385 per second)
+		Deletion alone: 17586 files (17586 per second)
+		Mixed with transactions: 2998707 files (1380 per second)
+
+Data:
+	1006174.12 megabytes read (462.18 megabytes per second)
+	1005295.25 megabytes written (461.78 megabytes per second)
