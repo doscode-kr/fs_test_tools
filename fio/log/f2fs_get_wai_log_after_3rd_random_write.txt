@@ -1,0 +1,11 @@
+WAI information NVME device:nvme0n1 namespace-id:ffffffff
+dataUnitsWrite.dw[0] : 5743112, 0x57a208, end_of_dataUnitsWrite.dw[0]
+dataUnitsWrite.dw[1] : 3899941792, 0xe87463a0, end_of_dataUnitsWrite.dw[1]
+dataUnitsWrite.dw[2] : 3, 0x3, end_of_dataUnitsWrite.dw[2]
+dataUnitsWrite.dw[3] : 0, 0x0, end_of_dataUnitsWrite.dw[3]
+controllerDataUnitsWritten.dw[0] : 0, 0x0, end_of_controllerDataUnitsWritten.dw[0]
+controllerDataUnitsWritten.dw[1] : 1638127712, 0x61a3d860, end_of_controllerDataUnitsWritten.dw[1]
+controllerDataUnitsWritten.dw[2] : 9, 0x9, end_of_controllerDataUnitsWritten.dw[2]
+controllerDataUnitsWritten.dw[3] : 0, 0x0, end_of_controllerDataUnitsWritten.dw[3]
+dataUnitsWrite.dw : 72,090,354,674,078,032,392 / controllerDataUnitWritten.dw : 173,056,401,613,097,271,296
+72,090,354,674,078,032,392 / 173,056,401,613,097,271,296
